@@ -11,6 +11,11 @@ import XCTest
 
 class IntroToUnitTestingLabTests: XCTestCase {
 
+    
+    var filename = "jokesData"
+    var ext = "json"
+    
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -19,16 +24,61 @@ class IntroToUnitTestingLabTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+    func testReadingDataFromJokesData() {
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    //arrange
+    filename = "jokesData"
+    ext = "json"
+        
+    // act
+    let data = getRawData()
+        
+    // assert
+    XCTAssertNotNil(data)
+        
     }
+    
+    func testParseJSONDataToUserArray () {
+        
+        //arrange
+        filename = "jokesData"
+        ext = "json"
+        let data = getRawData()
+        
+        //act
+        let jokes = JokesData.getJokes(from: data)
+        
+        //assert
+        XCTAssertGreaterThan(jokes.count, 0, "\(jokes.count) should be greater then 0")
+    }
+    
+    func testFirstJokeType() {
+        
+        // arrange
+        filename = "jokesData"
+        ext = "json"
+        let data = getRawData()
+        let jokes = JokesData.getJokes(from: data)
+        let expectedType = "programming"
+        
+        //act
+        let firstType = jokes.first!
+        //assert
+        XCTAssertEqual(firstType.type, expectedType, "\(firstType.type) should be equal to \(expectedType)")
+    }
+    
+}
 
+
+extension IntroToUnitTestingLabTests {
+    
+    func getRawData () -> Data {
+        
+        let data = Bundle.readRawJSONData(filename: filename, ext: ext)
+        return data
+        
+        
+    }
+    
+    
 }

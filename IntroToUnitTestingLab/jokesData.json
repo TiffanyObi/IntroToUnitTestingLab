@@ -1,0 +1,51 @@
+[{
+    "id": 23,
+    "type": "programming",
+    "setup": "Why do programmers always mix up Halloween and Christmas?",
+    "punchline": "Because Oct 31 == Dec 25"
+}, {
+    "id": 24,
+    "type": "programming",
+    "setup": "A SQL query walks into a bar, walks up to two tables and asks...",
+    "punchline": "'Can I join you?'"
+}, {
+    "id": 35,
+    "type": "programming",
+    "setup": "Why do Java programmers wear glasses?",
+    "punchline": "Because they don't C#"
+}, {
+    "id": 378,
+    "type": "programming",
+    "setup": "What's the best part about TCP jokes?",
+    "punchline": "I get to keep telling them until you get them."
+}, {
+    "id": 29,
+    "type": "programming",
+    "setup": "There are 10 types of people in this world...",
+    "punchline": "Those who understand binary and those who don't"
+}, {
+    "id": 60,
+    "type": "programming",
+    "setup": "A user interface is like a joke.",
+    "punchline": "If you have to explain it then it is not that good."
+}, {
+    "id": 18,
+    "type": "programming",
+    "setup": "Why did the programmer quit his job?",
+    "punchline": "Because he didn't get arrays."
+}, {
+    "id": 74,
+    "type": "programming",
+    "setup": "Why do C# and Java developers keep breaking their keyboards?",
+    "punchline": "Because they use a strongly typed language."
+}, {
+    "id": 72,
+    "type": "programming",
+    "setup": "I was gonna tell you a joke about UDP...",
+    "punchline": "...but you might not get it."
+}, {
+    "id": 26,
+    "type": "programming",
+    "setup": "If you put a million monkeys at a million keyboards, one of them will eventually write a Java program",
+    "punchline": "the rest of them will write Perl"
+}]

@@ -1,0 +1,74 @@
+{
+    "response_code": 0,
+    "results": [{
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "The%20mountainous%20Khyber%20Pass%20connects%20which%20of%20the%20two%20following%20countries%3F",
+        "correct_answer": "Afghanistan%20and%20Pakistan",
+        "incorrect_answers": ["India%20and%20Nepal", "Pakistan%20and%20India", "Tajikistan%20and%20Kyrgyzstan"]
+    }, {
+        "category": "Entertainment%3A%20Japanese%20Anime%20%26%20Manga",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who%20was%20given%20the%20title%20%22Full%20Metal%22%20in%20the%20anime%20series%20%22Full%20Metal%20Alchemist%22%3F",
+        "correct_answer": "Edward%20Elric",
+        "incorrect_answers": ["Alphonse%20Elric", "Van%20Hohenheim", "Izumi%20Curtis"]
+    }, {
+        "category": "General%20Knowledge",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What%20is%20the%20Italian%20word%20for%20%22tomato%22%3F",
+        "correct_answer": "Pomodoro",
+        "incorrect_answers": ["Aglio", "Cipolla", "Peperoncino"]
+    }, {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "When%20was%20the%20SS%20or%20Schutzstaffel%20established%3F",
+        "correct_answer": "April%204th%2C%201925",
+        "incorrect_answers": ["September%201st%2C%201941", "March%208th%2C%201935", "February%2021st%2C%201926"]
+    }, {
+        "category": "Science%3A%20Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How%20many%20cores%20does%20the%20Intel%20i7-6950X%20have%3F",
+        "correct_answer": "10",
+        "incorrect_answers": ["12", "8", "4"]
+    }, {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What%20was%20the%20first%20sport%20to%20have%20been%20played%20on%20the%20moon%3F",
+        "correct_answer": "Golf",
+        "incorrect_answers": ["Football", "Tennis", "Soccer"]
+    }, {
+        "category": "Science%20%26%20Nature",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "About%20how%20old%20is%20Earth%3F",
+        "correct_answer": "4.5%20Billion%20Years",
+        "incorrect_answers": ["3.5%20Billion%20Years", "2.5%20Billion%20Years", "5.5%20Billion%20Years"]
+    }, {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What%20is%20the%20capital%20of%20Estonia%3F",
+        "correct_answer": "Tallinn",
+        "incorrect_answers": ["Helsinki", "Tartu", "Riga"]
+    }, {
+        "category": "Politics",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who%20was%20elected%20leader%20of%20the%20UK%20Labour%20Party%20in%20September%202015%3F",
+        "correct_answer": "Jeremy%20Corbyn",
+        "incorrect_answers": ["Ed%20Miliband", "David%20Cameron", "Theresa%20May"]
+    }, {
+        "category": "General%20Knowledge",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In%20%22Battle%20Cats%22%2C%20what%20is%20Moneko%20%2F%20MISS%20Moneko%27s%20critical%20percentage%20rate%3F",
+        "correct_answer": "15%25",
+        "incorrect_answers": ["20%25", "10%25", "25%25"]
+    }]
+}
