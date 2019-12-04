@@ -9,7 +9,7 @@
 import XCTest
 @testable import IntroToUnitTestingLab
 
-class IntroToUnitTestingLabTests: XCTestCase {
+class JokesDataTests: XCTestCase {
 
     
     var filename = "jokesData"
@@ -38,15 +38,16 @@ class IntroToUnitTestingLabTests: XCTestCase {
         
     }
     
+    
     func testParseJSONDataToUserArray () {
         
         //arrange
         filename = "jokesData"
         ext = "json"
-        let data = getRawData()
+        _ = getRawData()
         
         //act
-        let jokes = JokesData.getJokes(from: data)
+        let jokes = JokesData.getJokes()
         
         //assert
         XCTAssertGreaterThan(jokes.count, 0, "\(jokes.count) should be greater then 0")
@@ -57,8 +58,8 @@ class IntroToUnitTestingLabTests: XCTestCase {
         // arrange
         filename = "jokesData"
         ext = "json"
-        let data = getRawData()
-        let jokes = JokesData.getJokes(from: data)
+        _ = getRawData()
+        let jokes = JokesData.getJokes()
         let expectedType = "programming"
         
         //act
@@ -70,7 +71,7 @@ class IntroToUnitTestingLabTests: XCTestCase {
 }
 
 
-extension IntroToUnitTestingLabTests {
+extension JokesDataTests {
     
     func getRawData () -> Data {
         

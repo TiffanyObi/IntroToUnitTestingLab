@@ -8,9 +8,6 @@
 
 import Foundation
 
-//struct GroupOfJokes: Codable {
-//    let jokes : [JokesData]
-//}
 
 struct  JokesData: Codable {
     
@@ -22,13 +19,22 @@ struct  JokesData: Codable {
 
 extension JokesData {
     
-    static func getJokes(from data: Data) -> [JokesData] {
+    static func getJokes() -> [JokesData] {
         
         var allJokes = [JokesData]()
         
+        guard let fileURL = Bundle.main.url(forResource: "jokesData", withExtension: "json") else {
+            fatalError("cannot locate file")
+        }
+        
         do {
+            
+            let data = try Data(contentsOf: fileURL)
+            
             let groupOfJokes = try JSONDecoder().decode([JokesData].self, from: data)
+            
             allJokes = groupOfJokes
+            
         } catch {
             fatalError("decoding error: \(error)")
         }
