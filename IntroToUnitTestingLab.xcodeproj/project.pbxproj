@@ -11,6 +11,8 @@
 		3E975A1723982EDD005E046B /* TriviaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E975A1623982EDD005E046B /* TriviaData.swift */; };
 		3E975A1923983DA3005E046B /* TriviaDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E975A1823983DA3005E046B /* TriviaDataViewController.swift */; };
 		3E975A1B239858DC005E046B /* JokesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E975A1A239858DC005E046B /* JokesDetailViewController.swift */; };
+		3E975A1D23985EC0005E046B /* StarWarsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E975A1C23985EC0005E046B /* StarWarsDetailViewController.swift */; };
+		3E975A1F2398682C005E046B /* TriviaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E975A1E2398682C005E046B /* TriviaDetailViewController.swift */; };
 		3EF017C72395DA9800044E6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF017C62395DA9800044E6F /* AppDelegate.swift */; };
 		3EF017C92395DA9800044E6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF017C82395DA9800044E6F /* SceneDelegate.swift */; };
 		3EF017CB2395DA9800044E6F /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF017CA2395DA9800044E6F /* JokesViewController.swift */; };
@@ -43,6 +45,8 @@
 		3E975A1623982EDD005E046B /* TriviaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaData.swift; sourceTree = SOURCE_ROOT; };
 		3E975A1823983DA3005E046B /* TriviaDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaDataViewController.swift; sourceTree = "<group>"; };
 		3E975A1A239858DC005E046B /* JokesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesDetailViewController.swift; sourceTree = "<group>"; };
+		3E975A1C23985EC0005E046B /* StarWarsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsDetailViewController.swift; sourceTree = "<group>"; };
+		3E975A1E2398682C005E046B /* TriviaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaDetailViewController.swift; sourceTree = "<group>"; };
 		3EF017C32395DA9800044E6F /* IntroToUnitTestingLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroToUnitTestingLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF017C62395DA9800044E6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EF017C82395DA9800044E6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,8 +141,10 @@
 				3E975A1A239858DC005E046B /* JokesDetailViewController.swift */,
 				3EF0182B2397137600044E6F /* StarWarsData.swift */,
 				3E975A1423975103005E046B /* StarWarsViewController.swift */,
+				3E975A1C23985EC0005E046B /* StarWarsDetailViewController.swift */,
 				3E975A1623982EDD005E046B /* TriviaData.swift */,
 				3E975A1823983DA3005E046B /* TriviaDataViewController.swift */,
+				3E975A1E2398682C005E046B /* TriviaDetailViewController.swift */,
 			);
 			path = "Controllers!!!";
 			sourceTree = "<group>";
@@ -251,12 +257,14 @@
 				3EF017F52396D30200044E6F /* Bundle+Extensions.swift in Sources */,
 				3EF017CB2395DA9800044E6F /* JokesViewController.swift in Sources */,
 				3E975A1523975103005E046B /* StarWarsViewController.swift in Sources */,
+				3E975A1F2398682C005E046B /* TriviaDetailViewController.swift in Sources */,
 				3E975A1723982EDD005E046B /* TriviaData.swift in Sources */,
 				3EF017C72395DA9800044E6F /* AppDelegate.swift in Sources */,
 				3E975A1B239858DC005E046B /* JokesDetailViewController.swift in Sources */,
 				3E975A1923983DA3005E046B /* TriviaDataViewController.swift in Sources */,
 				3EF0182C2397137600044E6F /* StarWarsData.swift in Sources */,
 				3EF017C92395DA9800044E6F /* SceneDelegate.swift in Sources */,
+				3E975A1D23985EC0005E046B /* StarWarsDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

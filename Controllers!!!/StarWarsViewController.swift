@@ -45,6 +45,16 @@ class StarWarsViewController: UIViewController {
         tableView.dataSource = self
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let movie = segue.destination as? StarWarsDetailViewController,
+            let indexPath = tableView.indexPathForSelectedRow else {
+                return
+        }
+        
+    
+        movie.movie = movies[indexPath.row]
+    }
 
 }
 

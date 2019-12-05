@@ -28,6 +28,14 @@ class JokesViewController: UIViewController {
         tableView.dataSource = self
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let jokeView = segue.destination as? JokesDetailViewController,
+            let indexPath = tableView.indexPathForSelectedRow else {
+            return
+        }
+        
+        jokeView.joke = jokes[indexPath.row]
+    }
 
 }
 

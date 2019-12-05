@@ -51,9 +51,16 @@ class TriviaDataViewController: UIViewController {
         loadData()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let triviaQuestion = segue.destination as? TriviaDetailViewController,
+        
+            let indexPath = tableView.indexPathForSelectedRow else {  fatalError("return ")
+        }
+        triviaQuestion.trivia = allTrivia[indexPath.row]
 
+    }
+    
 }
-
 extension TriviaDataViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         allTrivia.count

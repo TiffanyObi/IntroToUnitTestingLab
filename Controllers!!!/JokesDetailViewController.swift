@@ -10,13 +10,20 @@ import UIKit
 
 class JokesDetailViewController: UIViewController {
 
-    @IBOutlet weak var punchlineLabel: UILabel!
+    
+    @IBOutlet weak var punchlineView: UITextView!
+    
+    var joke: JokesData!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        updateUI()
+        
     }
     
+    func updateUI() {
+        view.backgroundColor = .yellow
+        punchlineView.text = joke.punchline
+    }
 
 }
